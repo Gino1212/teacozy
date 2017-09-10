@@ -39,7 +39,7 @@ font-family: helvetica;
 }
 
 .master-content {
-  padding-top: 69px;
+  padding-top: 62px;
   margin: auto;
   width: 1200px;
   opacity: 0.9;
@@ -90,4 +90,53 @@ font-family: helvetica;
   text-align: center;
   padding-top: 10px;
   display: block;
+}
+
+#bottom {
+  margin-top: 70px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#bottom h2 {
+  margin: 0;
+  padding-top: 55px;
+}
+#bottom .locations{
+  margin: auto;
+  width: 1200px;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  opacity: 1;
+  padding: 10px;
+  height: 250px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.contact h2 {
+  padding: 10px;
+  margin: 0px;
+}
+
+footer {
+  text-align: left;
 }
